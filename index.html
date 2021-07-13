@@ -32,15 +32,24 @@
 
       <section class="add-user">
         <div id="add-user-module">
-          <button id="open-add-user-form-btn">+</button>
+          <!-- <button id="open-add-user-form-btn">+</button> -->
           <form>
-            <h2>Add User</h2>
-            Age - <br />
-            <input type="text" data-key="name" class="user-input" /><br />
-            Email - <br />
-            <input type="text" data-key="age" class="user-input" /><br />
-            Name -<br />
-            <input type="text" data-key="email" class="user-input" /><br />
+            <!-- <h2>Add User</h2> -->
+
+            <div>
+              <label for="age"> Age </label>
+              <input type="text" data-key="name" class="user-input" /><br />
+            </div>
+
+            <div>
+              <label for="email"> Email </label>
+              <input type="text" data-key="age" class="user-input" /><br />
+            </div>
+
+            <div>
+              <label for="name"> Name </label>
+              <input type="text" data-key="email" class="user-input" /><br />
+            </div>
             <button type="button" id="add-user-btn">add user</button>
           </form>
         </div>

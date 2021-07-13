@@ -6,6 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
 }
 
 .name {
@@ -17,10 +18,11 @@ body {
 .container {
   display: flex;
   background-color: rgb(228, 227, 227);
+  min-height: 90vh;
   margin-top: 10px;
 }
 
-.add-user-,
+.add-user,
 .users-container {
   width: 50%;
 }
@@ -38,13 +40,24 @@ body {
 
 li,
 #userDetail p {
-  font-size: 18px;
   padding: 10px 0px;
   text-transform: capitalize;
   background-color: rgb(192, 191, 191);
   margin: 5px 0px;
   padding-left: 10px;
   border-radius: 5px;
+}
+
+.add-user {
+  margin-left: 10px;
+}
+
+form > div {
+  padding: 10px 0px;
+  margin: 5px 0px;
+  background-color: rgb(192, 191, 191);
+  border-radius: 5px;
+  padding-left: 10px;
 }
 
 /* body,
@@ -133,4 +146,4 @@ h1 {
 
 #add-user-module:hover form {
   display: block;
-} */
+} */ ;
