@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Alfie mahrez",
+      "age": 18,
+      "email": "alrez@email.com"
+    },
+    {
+      "name": "david simpson",
+      "age": 20,
+      "email": "simpsom@email.com"
+    },
+    {
+      "name": "sonia elvis",
+      "age": 39,
+      "email": "elvis@email.com"
+    },
+    {
+      "name": "Sunday Peter",
+      "age": 50,
+      "email": "peter54@email.com"
+    }
+  ]
+}
