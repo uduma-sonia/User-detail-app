@@ -48,8 +48,8 @@ function addUserBtnClicked() {
   // loop through View to get the data for the model
   for (let i = 0, len = addUserInputsUI.length; i < len; i++) {
     let key = addUserInputsUI[i].getAttribute("data-key");
-    let value = addUserInputsUI[i].value;
     newUser[key] = value;
+    let value = addUserInputsUI[i].value;
   }
 
   usersRef.push(newUser);
