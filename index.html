@@ -6,56 +6,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      Firebase CRUD with Vanilla Javascript
-      <br />
-      <small>
-        <em>01 Read Data</em>
-      </small>
-    </h1>
-    <ul id="userList"></ul>
-    <div id="userDetail">
-      <p>
-        Name :
-        <strong class="detailName"></strong>
-      </p>
-      <p>
-        Age:
-        <strong class="detailAge"></strong>
-      </p>
-      <p>
-        Email:
-        <strong class="detailEmail"></strong>
-      </p>
+    <div class="name">
+      <h1>Users App</h1>
     </div>
 
-    <section id="add-user-module">
-      <button id="open-add-user-form-btn">+</button>
-      <form>
-        <h2>Add User</h2>
-        name:<br />
-        <input type="text" data-key="name" class="user-input" /><br />
-        age:<br />
-        <input type="text" data-key="age" class="user-input" /><br />
-        email:<br />
-        <input type="text" data-key="email" class="user-input" /><br />
-        <button type="button" id="add-user-btn">add user</button>
-      </form>
-    </section>
+    <div class="container">
+      <section class="users-container">
+        <ul id="userList"></ul>
 
-    <!-- edit user module -->
-    <section id="edit-user-module">
-      <form>
-        <h2>Edit user</h2>
-        <input type="hidden" class="edit-userid" /> name:<br />
-        <input type="text" data-key="name" class="edit-user-input" /><br />
-        age:<br />
-        <input type="text" data-key="age" class="edit-user-input" /><br />
-        email:<br />
-        <input type="text" data-key="email" class="edit-user-input" /><br />
-        <button type="button" id="edit-user-btn">save</button>
-      </form>
-    </section>
+        <div id="userDetail">
+          <p>
+            Name -
+            <strong class="detailName"></strong>
+          </p>
+          <p>
+            Age -
+            <strong class="detailAge"></strong>
+          </p>
+          <p>
+            Email -
+            <strong class="detailEmail"></strong>
+          </p>
+        </div>
+      </section>
+
+      <section class="add-user">
+        <div id="add-user-module">
+          <button id="open-add-user-form-btn">+</button>
+          <form>
+            <h2>Add User</h2>
+            Age - <br />
+            <input type="text" data-key="name" class="user-input" /><br />
+            Email - <br />
+            <input type="text" data-key="age" class="user-input" /><br />
+            Name -<br />
+            <input type="text" data-key="email" class="user-input" /><br />
+            <button type="button" id="add-user-btn">add user</button>
+          </form>
+        </div>
+      </section>
+    </div>
 
     <!-- firebase sdk link goes here -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->

@@ -1,4 +1,53 @@
-body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name {
+  background-color: rgb(228, 227, 227);
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(228, 227, 227);
+  margin-top: 10px;
+}
+
+.add-user-,
+.users-container {
+  width: 50%;
+}
+
+.users-container {
+  display: flex;
+}
+
+#userList,
+#userDetail {
+  width: 50%;
+  padding-left: 15px;
+  list-style: none;
+}
+
+li,
+#userDetail p {
+  font-size: 18px;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  background-color: rgb(192, 191, 191);
+  margin: 5px 0px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+/* body,
 h1,
 h2 {
   margin: 0;
@@ -12,7 +61,7 @@ h1 {
   padding: 10px;
   background: #ffcc00;
 }
-/*---------------------------*/ /* Read Users */ /*---------------------------*/
+
 #userList {
   margin: 0;
   padding: 0;
@@ -46,7 +95,6 @@ h1 {
   color: white;
 }
 
-/* Add User Module */
 #add-user-module {
   width: 30px;
   margin-bottom: 1px;
@@ -85,4 +133,4 @@ h1 {
 
 #add-user-module:hover form {
   display: block;
-}
+} */
